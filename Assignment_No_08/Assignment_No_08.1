@@ -1,0 +1,17 @@
+// Write a program in javascript to check whether given number is even or odd.
+
+function ChkNum(iNo)
+{
+    if(iNo % 2 == 0)
+    {
+        console.log("It is a Even number.");
+    }
+    else
+    {
+        console.log("It is a Odd number.");
+    }
+}
+
+const prompt = require("prompt-sync")();
+var number = prompt("Enter the number : ");
+ChkNum(number);
